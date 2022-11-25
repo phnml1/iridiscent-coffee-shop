@@ -5,6 +5,11 @@ body {
 }
 a {
   text-decoration: none;
+  color: #4c4c4c;
+}
+a:hover {
+  color: #949494;
+  transition: 0.5s;
 }
 .wrap {
   width: 100%;
@@ -58,7 +63,7 @@ a {
   list-style: none;
   display: none;
   background-color: rgba(237, 236, 234);
-  border-radius: 2px;
+  border-radius: 5px;
   font-family: "Nanum Gothic", sans-serif;
   padding-bottom: 10px;
   padding-left: 20px;
@@ -74,6 +79,7 @@ a {
   position: relative;
 }
 #coffeeheader:hover #coffeeheader_contents {
+  transition: 0.5s;
   display: block;
 }
 #page {
@@ -86,8 +92,9 @@ a {
 /*여기 위까지 카피하세요*/
 #banner {
   height: 800px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/images/banner_background.jpg");
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("./images/banner_background3.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -125,10 +132,15 @@ a {
   right: 20%;
   font-size: 25px;
   font-family: "Nanum Gothic", sans-serif;
+  color: #4c4c4c;
+}
+#homeintrodes p {
+  font-family: Cinzel;
+  color: #4c4c4c;
 }
 #best {
   width: fit-content;
-  width: fit-content;
+  height: 630px;
   overflow: hidden;
   background-color: rgba(237, 236, 234);
   position: relative;
@@ -144,6 +156,8 @@ a {
 #best_title {
   margin-top: 30px;
   font-size: 25px;
+  color: #4c4c4c;
+  font-family: Cinzel;
 }
 #best_image {
   margin-top: 30px;
@@ -174,9 +188,71 @@ a {
 }
 #banner2 {
   height: 700px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/images/banner_background.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("./images/banner_background3.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+}
+a:hover {
+  color: #949494;
+  transition: 0.3s;
+}
+#footer {
+  background-color: #4c4c4c;
+  height: 200px;
+  color: white;
+  margin-top: -20px;
+  position: relative;
+}
+#footercom {
+  position: absolute;
+  top: 25px;
+  left: 5%;
+}
+#footercompanyeng {
+  font-size: 24px;
+  font-family: "Manrope", sans-serif;
+}
+
+#footercompanykor {
+  font-size: 15px;
+  font-family: "Nanum Gothic", sans-serif;
+}
+#teamname {
+  font-size: 16px;
+  font-family: "Nanum Gothic", sans-serif;
+  position: absolute;
+  bottom: 50px;
+  left: 5%;
+}
+#footeritem {
+  font-size: 16px;
+  position: absolute;
+  right: 9%;
+  top: 8px;
+  list-style: none;
+  display: flex;
+  color: #fff !important;
+}
+#footeritems {
+  font-family: "Manrope", sans-serif;
+
+  margin-left: 40px;
+}
+#footeritemlink {
+  list-style: none;
+  color: white;
+}
+#footeritemlink:hover {
+  color: #d46c6c;
+  transition: 0.5s;
+}
+#footeradress {
+  color: white;
+  position: absolute;
+  bottom: 50px;
+  right: 9%;
+  font-size: 16px;
+  font-family: "Nanum Gothic", sans-serif;
 }
