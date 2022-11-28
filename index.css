@@ -13,7 +13,7 @@ a:hover {
 }
 .openwindow {
   opacity: 1;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 .closewindow {
   opacity: 0;
