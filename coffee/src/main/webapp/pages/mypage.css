@@ -1,0 +1,488 @@
+@charset "utf-8";
+/*여기부터*/
+body {
+  margin: 0px;
+}
+a {
+  text-decoration: none;
+  color: #4c4c4c;
+}
+a:hover {
+  color: #949494;
+  transition: 0.5s;
+}
+.openwindow {
+  opacity: 1;
+  transition: 0.5s;
+}
+.closewindow {
+  opacity: 0;
+}
+.wrap {
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#header {
+  position: fixed;
+  background-color: rgba(237, 236, 234);
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 95px;
+  z-index: 3;
+}
+#toplogo {
+  float: left;
+  height: 69px;
+  width: 168px;
+  margin-left: 10%;
+  margin-top: 13px;
+}
+#menu {
+  display: flex;
+  position: absolute;
+  right: 10%;
+  top: 20px;
+  align-items: center;
+}
+#menuitem {
+  margin-right: 50px;
+  font-size: 16px;
+  font-family: "Manrope", sans-serif;
+  color: #4c4c4c;
+}
+#menuitem2 {
+  margin-right: 20px;
+  font-size: 13px;
+  color: #4c4c4c;
+  font-family: "Nanum Gothic", sans-serif;
+}
+#coffeeheader_contents {
+  position: absolute;
+  right: -50px;
+  width: 100px;
+  height: 70px;
+  top: 25px;
+  z-index: 3;
+  list-style: none;
+  display: none;
+  background-color: rgba(237, 236, 234);
+  border-radius: 5px;
+  font-family: "Nanum Gothic", sans-serif;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  color: #4c4c4c;
+}
+#coffeeheader_contents li {
+  margin-top: 5px;
+}
+#coffeeheader {
+  width: 50px;
+  height: 60px;
+  top: 20px;
+  position: relative;
+}
+#coffeeheader:hover #coffeeheader_contents {
+  transition: 0.5s;
+  display: block;
+}
+#userheader_contents {
+  position: absolute;
+  right: 0px;
+  width: 80px;
+  height: 50px;
+  top: 25px;
+  z-index: 3;
+  list-style: none;
+  display: none;
+  background-color: rgba(237, 236, 234);
+  border-radius: 5px;
+  font-family: "Nanum Gothic", sans-serif;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  color: #4c4c4c;
+}
+#userheader_contents li {
+  margin-top: 5px;
+}
+#userheader {
+  width: 85px;
+  height: 60px;
+  top: 22.75px;
+  position: relative;
+}
+#userheader:hover #userheader_contents {
+  transition: 0.5s;
+  display: block;
+}
+#page {
+  position: relative;
+  top: 95px;
+  height: fit-content;
+  z-index: 2;
+  background-color: rgba(237, 236, 234);
+}
+#aboutusdiv {
+  width: 100%;
+  height: 1000px;
+  position: relative;
+}
+#aboutusdes {
+  width: fit-content;
+  font-size: 20px;
+  position: absolute;
+  top: 30%;
+  left: 3%;
+  font-family: "Nanum Gothic", sans-serif;
+}
+#aboutusphoto {
+  width: 550px;
+  background-image: url("./images/aboutus1.jpg");
+  position: absolute;
+  right: 3%;
+  top: 10%;
+  z-index: 100;
+  height: 650px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#aboutusdiv2 {
+  width: 100%;
+  height: 1000px;
+  position: relative;
+  margin-top: -200px;
+}
+#aboutusdes2 {
+  width: fit-content;
+  font-size: 20px;
+  position: absolute;
+  top: 30%;
+  right: 3%;
+  font-family: "Nanum Gothic", sans-serif;
+}
+#aboutusphoto2 {
+  width: 700px;
+  background-image: url("./images/aboutus2.jpg");
+  position: absolute;
+  left: 3%;
+  top: 10%;
+  z-index: 100;
+  height: 650px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*여기 위까지 카피하세요*/
+.ad2main {
+  font-family: "Nanum Pen Script", cursive;
+  color: black;
+  margin-top: 30px;
+  font-size: 30px;
+  margin-left: 2px;
+}
+.ad2des {
+  font-family: "Nanum Gothic", sans-serif;
+}
+.ad2title {
+  font-family: Cinzel;
+  margin-top: 50px;
+  font-size: 40px;
+  color: #c47c34;
+}
+#loginpage {
+	position: relative;
+	top: 95px;
+	height: fit-content;
+	z-index: 2;
+	background-color: rgba(237, 236, 234);
+	padding-bottom: 0px;
+}
+.center {
+  text-align: center;
+}
+/*여기 위까지 카피하세요*/
+.logincon {
+	width: fit-content;
+	height: fit-content;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(255, 255, 255, 0.545);
+	margin-top: 50px;
+	font-family: "Nanum Gothic", sans-serif;
+	font-size: 18px;
+	color: #4c4c4c;
+}
+.joincon {
+	width: fit-content;
+	height: fit-content;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Nanum Gothic", sans-serif;
+  
+	font-size: 18px;
+	color: #4c4c4c;
+  z-index: 1000;
+}
+.tablestyle {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 750px;
+
+}
+#registerform {
+	font-size: 15px;
+	font-family: "Nanum Gothic", sans-serif;
+	font-weight:bold;
+}
+#join {
+  margin-top: 20px;
+	font-family: "Nanum Gothic", sans-serif;
+	background-color:#634d38;
+	border:0;
+	outline:0;
+	font-size: 12px;
+  color: rgb(251, 248, 248);
+  width: 256px;
+  height: 40px;
+}
+
+
+#banner {
+  height: 250px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("./images/banner_bg2.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+a:hover {
+  color: #949494;
+  transition: 0.3s;
+}
+#banner1 {
+  height: 350px;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("./images/banner_bg2.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+#banner2 {
+  height: 350px;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("./images/banner_bg1.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+#footer {
+  background-color: #4c4c4c;
+  height: 200px;
+  color: white;
+  margin-top: -20px;
+  position: relative;
+}
+#footercom {
+  position: absolute;
+  top: 25px;
+  left: 5%;
+}
+#footercompanyeng {
+  font-size: 24px;
+  font-family: "Manrope", sans-serif;
+}
+
+#footercompanykor {
+  font-size: 15px;
+  font-family: "Nanum Gothic", sans-serif;
+}
+#teamname {
+  font-size: 16px;
+  font-family: "Nanum Gothic", sans-serif;
+  position: absolute;
+  bottom: 50px;
+  left: 5%;
+}
+#footeritem {
+  font-size: 16px;
+  position: absolute;
+  right: 9%;
+  top: 8px;
+  list-style: none;
+  display: flex;
+  color: #fff !important;
+}
+#footeritems {
+  font-family: "Manrope", sans-serif;
+
+  margin-left: 40px;
+}
+#footeritemlink {
+  list-style: none;
+  color: white;
+}
+#footeritemlink:hover {
+  color: #d46c6c;
+  transition: 0.5s;
+}
+#footeradress {
+  color: white;
+  position: absolute;
+  bottom: 50px;
+  right: 9%;
+  font-size: 16px;
+  font-family: "Nanum Gothic", sans-serif;
+}
+#loginform {
+	width: fit-content;
+	height: fit-content;
+	margin-left: auto;
+	margin-right: auto;
+  padding-top: 130px;
+	font-size: 30px;
+	color: #3f2e2e;
+	width: 150px;
+	font-family: "Manrope", sans-serif;
+	background-color:transparent;
+	font-weight:bold;
+}
+
+#userId {
+	height: 23px;
+	width: 250px;
+  margin-left:4px;
+  margin-bottom: 6px;
+  border: 1;
+  border-width: thin; 
+  border-color: #b4b4b4;
+  background-color:f7f6f4;
+  font-size: 12px;
+  outline: 0;
+  
+}
+#name {
+  height: 23px;
+  width: 250px;
+  margin-left:4px;
+  margin-bottom: 6px;
+  border: 1;
+  border-width: thin; 
+  border-color: #b4b4b4;
+  background-color:rgba(255, 255, 255, 0.545);
+  font-size: 12px;
+  outline: 0;
+}
+#num {
+  height: 23px;
+  width: 250px;
+  margin-left:4px;
+  margin-bottom: 6px;
+  border: 1;
+  border-width: thin; 
+  border-color: #b4b4b4;
+  background-color:rgba(255, 255, 255, 0.545);
+  font-size: 12px;
+  outline: 0;
+}
+#address {
+  height: 23px;
+  width: 250px;
+  margin-left:4px;
+  margin-bottom: 6px;
+  border: 1;
+  border-width: thin; 
+  border-color: #b4b4b4;
+  background-color:rgba(255, 255, 255, 0.545);
+  font-size: 12px;
+  outline: 0;
+}
+#userPw {
+	height: 23px;
+	width: 250px;
+  margin-left:4px;
+  margin-bottom: 6px;
+  border: 1;
+  border-width: thin;
+  border-color: #b4b4b4;
+  background-color:rgba(255, 255, 255, 0.545);
+  font-size: 12px;
+  outline: 0;
+} 
+#middle_brg {
+	background-color: rgba(255, 255, 255, 0.545);
+	height: 550px;
+  /*margin-bottom: 300px;*/
+}
+td div {
+  background-color: transparent;
+}
+#banner2 {
+	height: 250px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("./images/banner_bg4.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#middle_brg2 {
+	height: 1250px;
+}
+
+#mpagemiddle {
+	margin-top: 100px;
+	height:600px;
+	align-item:center;
+	width: fit-content;
+	height: fit-content;
+	margin-left: auto;
+	margin-right: auto;;
+	font-family: "Nanum Gothic", sans-serif;
+	font-size: 18px;
+	color: #4c4c4c;
+}
+#mpagetable {
+	height: auto;
+	width: auto;
+	margin-bottom:500px;
+}
+
+
+.trstyle {
+	margin-bottom: 50px;
+	
+}
+.tr1 {
+	margin-right:80px;
+	margin-bottom: 50px;
+	border-bottom: thin;
+	border-bottom-color:#8C8C8C;
+}
+
+.tr2 {
+	margin-bottom: 50px;
+	border-bottom:thin;
+	border-bottom-color:#8C8C8C;
+}
+.tr3{
+	margin-right:0px;
+	margin-bottom: 50px;
+	border-bottom: thin;
+	border-bottom-color:#8C8C8C;
+	
+
+}
+.trtxt {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: thin;
+	border-left-style: none;
+	border-bottom-color: #8C8C8C;
+	width:auto;
+}

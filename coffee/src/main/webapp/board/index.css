@@ -1,0 +1,298 @@
+@charset "utf-8";
+
+body {
+  background-color: rgba(237, 236, 234);
+  margin: 0px;
+}
+a {
+  text-decoration: none;
+  color: #4c4c4c;
+}
+a:hover {
+  color: #949494;
+  transition: 0.3s;
+}
+.openwindow {
+  opacity: 1;
+  transition: 0.5s;
+}
+.closewindow {
+  opacity: 0;
+}
+#wrap {
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(237, 236, 234);
+}
+
+#header {
+  position: fixed;
+  background-color: rgba(237, 236, 234);
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 95px;
+  z-index: 3;
+}
+#toplogo {
+  float: left;
+  height: 69px;
+  width: 168px;
+  margin-left: 10%;
+  margin-top: 13px;
+}
+#menu {
+  display: flex;
+  position: absolute;
+  right: 10%;
+  top: 20px;
+  align-items: center;
+}
+#menuitem {
+  margin-right: 50px;
+  font-size: 16px;
+  font-family: "Manrope", sans-serif;
+  color: #4c4c4c;
+}
+#menuitem2 {
+  margin-right: 20px;
+  font-size: 13px;
+  color: #4c4c4c;
+  font-family: "Nanum Gothic", sans-serif;
+}
+#coffeeheader_contents {
+  position: absolute;
+  right: -50px;
+  width: 100px;
+  height: 70px;
+  top: 25px;
+  z-index: 3;
+  list-style: none;
+  display: none;
+  background-color: rgba(237, 236, 234);
+  border-radius: 5px;
+  font-family: "Nanum Gothic", sans-serif;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  color: #4c4c4c;
+}
+#coffeeheader_contents li {
+  margin-top: 5px;
+}
+#coffeeheader {
+  width: 50px;
+  height: 60px;
+  top: 20px;
+  position: relative;
+}
+#coffeeheader:hover #coffeeheader_contents {
+  transition: 0.5s;
+  display: block;
+}
+#userheader_contents {
+  position: absolute;
+  right: 0px;
+  width: 80px;
+  height: 50px;
+  top: 25px;
+  z-index: 3;
+  list-style: none;
+  display: none;
+  background-color: rgba(237, 236, 234);
+  border-radius: 5px;
+  font-family: "Nanum Gothic", sans-serif;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  color: #4c4c4c;
+}
+#userheader_contents li {
+  margin-top: 5px;
+}
+#userheader {
+  width: 85px;
+  height: 60px;
+  top: 22.78px;
+  position: relative;
+}
+#userheader:hover #userheader_contents {
+  transition: 0.5s;
+  display: block;
+}
+#page {
+  position: relative;
+  top: 95px;
+  height: fit-content;
+  z-index: 2;
+  background-color: rgba(237, 236, 234);
+}
+#con{
+	position:absolute;
+	height:260px;
+	top:200px;
+	text-align:center;
+	left:15%;
+	right:15%;
+	margin-top:10px;
+}
+#writecon{
+	position:absolute;
+	left:150px;
+	top:200px;
+	height:380px;
+	 
+}
+#writecon{
+	position:absolute;
+	left:200px;
+	height:380px;
+	 
+}
+#registerform{
+	position:absolute;
+	left:375px;
+}
+.QNA{
+	font-size: 36px;
+	font-weight: bolder;
+	background-color: rgba(237, 236, 234);
+	margin-bottom:30px;
+	margin-top:30px;
+}
+#wrbt{
+	text-align:center
+}#banner {
+	height: 200px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("./images/banner_bg2.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#rbanner {
+	height: 200px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("./images/banner_bg4_1.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#footer {
+  background-color: #4c4c4c;
+  height: 200px;
+  color: white;
+  margin-top: -20px;
+  position: relative;
+}
+#footercom {
+  position: absolute;
+  top: 25px;
+  left: 5%;
+}
+#footercompanyeng {
+  font-size: 24px;
+  font-family: "Manrope", sans-serif;
+}
+
+#footercompanykor {
+  font-size: 15px;
+  font-family: "Nanum Gothic", sans-serif;
+}
+#teamname {
+  font-size: 16px;
+  font-family: "Nanum Gothic", sans-serif;
+  position: absolute;
+  bottom: 50px;
+  left: 5%;
+}
+#footeritem {
+  font-size: 16px;
+  position: absolute;
+  right: 9%;
+  top: 8px;
+  list-style: none;
+  display: flex;
+  color: #fff !important;
+}
+#footeritems {
+  font-family: "Manrope", sans-serif;
+
+  margin-left: 40px;
+}
+#footeritemlink {
+  list-style: none;
+  color: white;
+}
+#footeritemlink:hover {
+  color: #d46c6c;
+  transition: 0.5s;
+}
+#footeradress {
+  color: white;
+  position: absolute;
+  bottom: 50px;
+  right: 9%;
+  font-size: 16px;
+  font-family: "Nanum Gothic", sans-serif;
+}table {
+	height: fit-content;
+	font-family: "Nanum Gothic", sans-serif;
+}
+#inside {
+	align-items: center;
+  font-family: "Nanum Gothic", sans-serif;
+  height: 550px;
+  background-color: rgba(255, 255, 255, 0.545);
+}
+#subinside {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 20px;
+  margin-top: 150px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+  color:  #4c4c4c;
+}
+#insidelink {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  color:  #4c4c4c;
+}
+#boardsection {	
+	background-color: rgba(255, 255, 255, 0.545);
+	height: 700px;
+  align-items: center;
+ 	position: relative;
+}
+.modify {
+	height: 500px;
+	width: 630px;
+	background-color: rgba(255, 255, 255, 0.545);
+	font-family: "Nanum Gothic", sans-serif;
+}
+#modform{
+	position:absolute;
+	left:450px;
+}
+#sendbtn {
+	margin-top: 10px;
+	font-family: "Nanum Gothic", sans-serif;
+	background-color: transparent;
+	border:0;
+	outline:0;
+	font-size: 12px;
+    color: #4c4c4c;
+    width: 100px;
+    height: 40px;
+}
+#banner2 {
+		height: 250px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("./images/banner_bg4_1.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

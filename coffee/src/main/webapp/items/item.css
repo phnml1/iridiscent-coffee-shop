@@ -1,0 +1,363 @@
+@charset "utf-8";
+body {
+  background-color: rgba(237, 236, 234);
+  margin: 0px;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: #949494;
+  transition: 0.3s;
+}
+.openwindow {
+  opacity: 1;
+  transition: 0.5s;
+}
+.closewindow {
+  opacity: 0;
+}
+#wrap {
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(237, 236, 234);
+}
+
+#header {
+  position: fixed;
+  background-color: rgba(237, 236, 234);
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 95px;
+  z-index: 3;
+}
+#toplogo {
+  float: left;
+  height: 69px;
+  width: 168px;
+  margin-left: 10%;
+  margin-top: 13px;
+}
+#menu {
+  display: flex;
+  position: absolute;
+  right: 10%;
+  top: 20px;
+  align-items: center;
+}
+#menuitem {
+  margin-right: 50px;
+  font-size: 16px;
+  font-family: "Manrope", sans-serif;
+  color: #4c4c4c;
+}
+#menuitem2 {
+  margin-right: 20px;
+  font-size: 13px;
+  color: #4c4c4c;
+  font-family: "Nanum Gothic", sans-serif;
+}
+#coffeeheader_contents {
+  position: absolute;
+  right: -50px;
+  width: 100px;
+  height: 70px;
+  top: 25px;
+  z-index: 3;
+  list-style: none;
+  display: none;
+  background-color: rgba(237, 236, 234);
+  border-radius: 5px;
+  font-family: "Nanum Gothic", sans-serif;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  color: #4c4c4c;
+}
+#coffeeheader_contents li {
+  margin-top: 5px;
+}
+#coffeeheader {
+  width: 50px;
+  height: 60px;
+  top: 20px;
+  position: relative;
+}
+#coffeeheader:hover #coffeeheader_contents {
+  transition: 0.5s;
+  display: block;
+}
+#userheader_contents {
+  position: absolute;
+  right: 0px;
+  width: 80px;
+  height: 50px;
+  top: 25px;
+  z-index: 3;
+  list-style: none;
+  display: none;
+  background-color: rgba(237, 236, 234);
+  border-radius: 5px;
+  font-family: "Nanum Gothic", sans-serif;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  color: #4c4c4c;
+}
+#userheader_contents li {
+  margin-top: 5px;
+}
+#userheader {
+  width: 85px;
+  height: 60px;
+  top: 22.78px;
+  position: relative;
+}
+#userheader:hover #userheader_contents {
+  transition: 0.5s;
+  display: block;
+}
+#page {
+  position: relative;
+  top: 95px;
+  height: fit-content;
+  z-index: 2;
+  background-color: rgba(237, 236, 234);
+}
+#banner {
+  height: 200px;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("./images/banner_bg1.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#coffeebanner{
+  height: 200px;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("./images/banner_background3.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#sub_contents {
+  text-align: center;
+  font-size:50px;
+}
+#section {
+  position: relative;
+  top: 0px;
+  background-color: rgba(237, 236, 234);
+  width: 100%;
+  padding-top: 30px;
+}
+#main_menu {
+  height: 50px;
+  width: 600px;
+  position: absolute;
+  left: 0;
+  font-family: "Nanum Gothic", sans-serif;
+}
+#sub_menu {
+  height: 50px;
+  width: 635px;
+  position: absolute;
+  top: 50px;
+  left: 40px;
+  margin-top: 2px;
+}
+.main_item {
+  font-size: 40px;
+  text-align: center;
+  display: block;
+  margin-right: 100px;
+}
+.sub_item {
+  font-size: 35px;
+  height: 50px;
+  width: 160px;
+  float: left;
+  margin-right: 23px;
+  text-align: center;
+  margin-left: 30px;
+}
+#top_section {
+  height: 47.09px;
+  width: fit-content;
+  position: absolute;
+  margin-bottom: 30px;
+  right: 10px;
+  top: 0px;
+}
+#middle_section {
+  height: auto;
+  top: 100px;
+  margin-top: 300px;
+  position: relative;
+  width: 100%;
+  
+  
+}
+
+.item_img{
+	position:relative;
+	width:250px;
+	height:250px;
+}
+.pur{
+	position:absolute;
+  top: 0px;
+  left: 0px;
+}
+.det{
+	position:absolute;
+  top: 0px;
+  left: 0px;
+}
+.detimg{
+	 opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.item_img:hover .detimg {
+ opacity:1;
+}
+
+.shop_item {
+  height: 410px;
+  width: 250px;
+  margin-top: 50px;
+
+  padding-bottom: 50px;
+  float: left;
+  margin-left: 185px;
+  position: relative;
+}
+.shop_item_txt {
+  height: 254.41px;
+  width: 237px;
+  padding-top: 14px;
+  padding-bottom: 20px;
+  position:absolute;
+  margin-top:10px;
+  bottom:0;
+}
+.item_name {
+  font-size: 20px;
+  height: 58.78px;
+  width: 237px;
+  margin-bottom: 15px;
+  margin-top:10px;
+}
+.item_price {
+  float: left;
+  height: 20.8px;
+  width: 180px;
+}
+.item_score{
+	width: 57px;
+	height: 20.8px;
+	float: left;
+	text-align:right;
+}
+
+.tablestyle {
+	position:absolute;
+	right:0;
+	width: 680px;
+	text-align: center;	
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top:100px;
+}
+.rightcon {
+	margin-top: 20px;
+	width: 1200px;
+	position:relative;
+}
+
+#footer {
+  background-color: #4c4c4c;
+  height: 200px;
+  color: white;
+  margin-top: -20px;
+  position: relative;
+}
+#footercom {
+  position: absolute;
+  top: 25px;
+  left: 5%;
+}
+#footercompanyeng {
+  font-size: 24px;
+  font-family: "Manrope", sans-serif;
+}
+
+#footercompanykor {
+  font-size: 15px;
+  font-family: "Nanum Gothic", sans-serif;
+}
+#teamname {
+  font-size: 16px;
+  font-family: "Nanum Gothic", sans-serif;
+  position: absolute;
+  bottom: 50px;
+  left: 5%;
+}
+
+#footeritem {
+  font-size: 16px;
+  position: absolute;
+  right: 9%;
+  top: 8px;
+  list-style: none;
+  display: flex;
+  color: #fff !important;
+}
+#footeritems {
+  font-family: "Manrope", sans-serif;
+
+  margin-left: 40px;
+}
+#footeritemlink {
+  list-style: none;
+  color: white;
+}
+.procon{
+  width: fit-content;
+  height: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(237, 236, 234);
+  margin-top: 100px;
+  position:relative;
+ 
+}
+#footeritemlink:hover {
+  color: #d46c6c;
+  transition: 0.5s;
+}
+#footeradress {
+  color: white;
+  position: absolute;
+  bottom: 50px;
+  right: 9%;
+  font-size: 16px;
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+#show{
+	 margin-top: 20px;
+	font-family: "Nanum Gothic", sans-serif;
+	background-color:#d2d2d2;
+	border:0;
+	outline:0;
+	font-size: 12px;
+    width: 80px;
+	height: 20px;
+}
+
