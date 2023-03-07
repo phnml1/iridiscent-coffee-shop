@@ -44,9 +44,8 @@ irridescent: 한국번역으로는 무지개빛으로 알려져있으나
 #### 상품 리스트
 ![17 ��ü��ǰ���(�����ڰ���)](https://user-images.githubusercontent.com/88328887/223357981-90113e22-a3ca-4503-b2eb-37cde463d6c2.png)
 #### 상품 등록
+![18 ��ǰ�߰�������(�����ڰ���)](https://user-images.githubusercontent.com/88328887/223360082-36eae7f9-e292-4e3e-8520-8b34b633cc37.png)
 
-
-          ![18 ��ǰ�߰�������(�����ڰ���)](https://user-images.githubusercontent.com/88328887/223358080-ab71460e-a2fe-406a-9b97-c0cf82294a5b.png)
 
 <br><br>
 ## 역할분담
