@@ -50,7 +50,7 @@ irridescent: 한국번역으로는 무지개빛으로 알려져있으나
 <br><br>
 ## 역할분담
 이주영 (팀장)<br>
-CSS: 메인화면, Header, About us, Review<br>
+CSS: 메인화면, Header, About us, Review,상품 상세 페이지,상품 목록,관리자 페이지<br>
 기능구현: 상품 등록(리스트 수정 삭제 검색), 상품 구매, 장바구니, 검색, Q&A 고객센터 게시판
 글 목록 페이징, 상품 평점,상품 목록
 <br><br>
